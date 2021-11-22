@@ -1,0 +1,97 @@
+.active {
+  color: #ffffff !important;
+  background-color: #3d5066 !important;
+}
+
+.border-top-none {
+  border-top: none !important;
+}
+
+.border-left-none {
+  border-left: none !important;
+}
+
+.border-bottom-none {
+  border-bottom: none !important;
+}
+
+.border-right-none {
+  border-right: none !important;
+}
+
+.active-div {
+  width: 100%;
+  height: auto;
+  background-color: rgb(36, 44, 65);
+  border-color: rgb(70, 70, 70);
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.chart-div {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(120, 120, 120);
+}
+
+.historymodal {
+  position: absolute;
+  top: 87px;
+  left: 130px;
+  border: solid rgb(190, 190, 190) 3px;
+  width: 470px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.modal-header h4 {
+  color: rgb(230, 230, 230);
+}
+
+tr td {
+  font-size: 12px;
+}
+
+.rotate1 {
+  transform: rotate(90deg);
+  color: red;
+}
+
+.rotate0 {
+  transform: rotate(-90deg);
+  color: green;
+}
+
+.background {
+  background-color: rgb(36, 44, 65);
+  color: rgb(220, 220, 220);
+}
+
+.call-btn {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.balance {
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  right: 150px;
+  z-index: 1000;
+}
+.deposit {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: rgb(40, 140, 60);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 15px;
+  color: rgb(40, 140, 60);
+}
